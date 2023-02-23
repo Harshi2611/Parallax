@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0;   
+}
+body{
+    position: relative;
+}
+.Parallax1{
+    
+    height: 600px;
+    width: 100%;
+    background-image: url(pp11.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    
+}
+.Parallax1 h2{
+   
+    position: relative;
+    left: 650px;
+    top: 300px;
+    width: 210px;
+    height: 30px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.Parallax2{
+    
+    height: 600px;
+    width: 100%;
+    background-image: url(images.jpg);
+    background-size: 100% 100%;
+    
+    background-attachment: fixed;
+}
+.Parallax2 h2{
+    position: relative;
+    margin-top: 0%;
+    left: 650px;
+    top: 300px;
+    width: 210px;
+    height: 30px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.Para{
+    width: 96%;
+    padding: 10px;
+    text-align: center;
+    height: 100px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+    padding: 2%;
+}
+.Parallax3{
+    
+    height: 600px;
+    width: 100%;
+    background-image: url(pp11.jpg);
+    background-size: 100% 100%;
+    
+    background-attachment: fixed;
+}
+.Parallax3 h2{
+    position: relative;
+    left: 650px;
+    top: 300px;
+    width: 210px;
+    height: 30px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.clearfix{
+    clear: both;
+}
+@media screen and (max-width: 768px) {
+    .Parallax1 h2{
+        display: none;
+        position: relative;
+    }
+    
+}
